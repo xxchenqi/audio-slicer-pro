@@ -39,10 +39,6 @@ AudioSlicer Pro 是一个基于 Vue 3 + TypeScript 开发的现代化音频分�
 
 ### 安装步骤
 ```bash
-# 克隆项目
-git clone https://github.com/你的用户名/audio-slicer-pro.git
-cd audio-slicer-pro
-
 # 安装依赖
 npm install
 
