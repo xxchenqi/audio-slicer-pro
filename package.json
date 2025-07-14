@@ -1,0 +1,41 @@
+{
+  "name": "audio-slicer-pro",
+  "version": "1.0.0",
+  "description": "一个功能强大的在线音频分割工具，支持双引擎处理方案",
+  "keywords": ["音频分割", "音频处理", "FFmpeg", "Web Audio API", "Vue3", "TypeScript"],
+  "author": "你的名字",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/你的用户名/audio-slicer-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/你的用户名/audio-slicer-pro/issues"
+  },
+  "homepage": "https://github.com/你的用户名/audio-slicer-pro#readme",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.2",
+    "@types/node": "^22.15.32",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/tsconfig": "^0.7.0",
+    "npm-run-all2": "^8.0.4",
+    "typescript": "~5.8.0",
+    "vite": "^7.0.0",
+    "vite-plugin-vue-devtools": "^7.7.7",
+    "vue-tsc": "^2.2.10"
+  }
+}
